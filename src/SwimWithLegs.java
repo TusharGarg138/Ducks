@@ -1,4 +1,4 @@
-public class SwimWithLegs {
+public class SwimWithLegs implements SwimBehaviour {
     public SwimWithLegs() {
     }
 
