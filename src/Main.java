@@ -23,5 +23,15 @@ public class Main {
         md.performSwim();
         md.performFly();
         System.out.println("-----------------------");
+
+        Duck dd = new DecoyDuck(); // Add DecoyDuck
+        System.out.println("------------------");
+        dd.display();
+        dd.performQuack();
+        dd.performSwim();
+        dd.performFly();
+        System.out.println("-----------------------");
+
     }
+
 }
